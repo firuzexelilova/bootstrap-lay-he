@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#Header {
+  padding: 25px 0;
+}
+
+#Header a {
+  font-size: 17px;
+  color: #141517;
+  font-weight: bold;
+  margin: 0 20px;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#Header i {
+  color: #141517;
+  font-size: 17px;
+  margin-left: 25px;
+}
+
+.phoneHeader {
+  display: none;
+  padding: 20px 0;
+}
+
+.phoneHeader i {
+  color: #ff2020;
+  font-size: 25px;
+}
+
+#First {
+  margin-bottom: 50px;
+  background-color: #f0f0f2;
+  overflow: hidden;
+}
+
+#First h1 {
+  font-size: 96px;
+  color: #0b1c39;
+}
+
+#First p {
+  font-size: 17px;
+  color: #212025;
+  margin: 25px 0 40px 0;
+}
+
+#First a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px 40px;
+  background-color: #4a4a4b;
+}
+
+#First img {
+  -webkit-animation: myAnime 2s linear infinite;
+          animation: myAnime 2s linear infinite;
+}
+
+@-webkit-keyframes myAnime {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes myAnime {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@media (max-width: 576px) {
+  #Header {
+    display: none;
+  }
+  .phoneHeader {
+    display: block;
+  }
+  #First {
+    padding: 6rem 0;
+  }
+  #First .left h1 {
+    font-size: 33px;
+  }
+  #First .right {
+    display: none;
+  }
+}
+
+#Second {
+  margin-bottom: 100px;
+}
+
+#Second h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#Second .box:hover .top img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#Second .box .top {
+  overflow: hidden;
+}
+
+#Second .box .top img {
+  width: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Second .box .bottom {
+  padding: 20px 0;
+}
+
+#Second .box .bottom h3 {
+  font-size: 24px;
+  color: #444444;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#Second .box .bottom p {
+  color: #ff2020;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#Third {
+  margin: 5rem 0;
+}
+
+#Third .box:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#Third .box {
+  overflow: hidden;
+}
+
+#Third .box img {
+  width: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Fourth {
+  margin-top: 100px;
+}
+
+#Fourth .box:hover .top .card-box {
+  height: 7%;
+}
+
+#Fourth .box .top {
+  position: relative;
+  overflow: hidden;
+}
+
+#Fourth .box .top .card-box {
+  position: absolute;
+  background-color: #ff2020;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  height: 1%;
+}
+
+#Fourth .box .top .card-box p {
+  margin: 0;
+  color: #fff;
+}
+
+#Fourth .box .top img {
+  width: 100%;
+}
+
+#Fourth .box .bottom {
+  padding: 20px 0;
+}
+
+#Fourth .box .bottom h3 {
+  font-size: 24px;
+  color: #444444;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#Fourth .box .bottom p {
+  color: #ff2020;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
